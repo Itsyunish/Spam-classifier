@@ -11,6 +11,7 @@ ps = PorterStemmer()
 
 
 def transform(text):
+    """pre process the text"""
     text = text.lower()  # lower case
     text = nltk.word_tokenize(text)  # tokenize
 
@@ -54,4 +55,5 @@ if st.button('Predict'):
         st.header("Spam")
     else:
         st.header("Not Spam")
+
 
