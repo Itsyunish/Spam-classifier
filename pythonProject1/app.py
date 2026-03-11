@@ -36,6 +36,7 @@ def transform(text):
     return " ".join(y)
 
 
+## load the pickle file
 tfidf = pickle.load(open('vectorizer.pkl', 'rb'))
 model = pickle.load(open('model.pkl', 'rb'))
 
@@ -55,5 +56,6 @@ if st.button('Predict'):
         st.header("Spam")
     else:
         st.header("Not Spam")
+
 
 
