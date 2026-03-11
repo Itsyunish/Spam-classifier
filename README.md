@@ -1,6 +1,6 @@
 # 📩 SMS Spam Classifier
 
-This is a machine learning project that classifies SMS messages as **Spam** or **Not Spam (Ham)**. The project uses **Natural Language Processing (NLP)** techniques and is deployed with **Streamlit** for an interactive web interface.
+This is a machine learning project that classifies SMS messages as **Spam** or **Not Spam (Ham)**. The project uses **Natural Language Processing (NLP)** technique and is deployed with **Streamlit** for an interactive user web interface.
 
 ---
 
